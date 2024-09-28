@@ -16,12 +16,12 @@ while True:
     if required_cpu <= 0 or required_mem <= 0:
         print("Invalid resource request. Resource request cannot be negative.")y
         break
-        
+    
     elif required_cpu > total_cpu or required_mem > total_memory:
         print("Resources exceeds availability limit.\n")
         print(f"Available Resources: CPU cores - {total_cpu} | Memory - {total_memory}\n")
         break
-            
+    #print available memory and cores        
     elif required_cpu <= total_cpu and required_mem <= total_memory: 
         available_cpu = total_cpu - required_cpu
         available_mem = float(total_memory - required_mem)
