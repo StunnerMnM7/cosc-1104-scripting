@@ -1,6 +1,8 @@
 '''
+In-Class#4 Nov 1st, 2024
+COSC 1104-01 Scripting
 Mihir Mane: 100947380
-Zuhaib Khan: 
+Zuhaib Khan: 100935821
 '''
 
 import requests
