@@ -64,8 +64,8 @@ def filter_instances(ec2_data, min_cpu=None, max_cpu=None, min_memory=None, max_
 # Main function to run the program
 def main():
     # Use the raw URL format for GitHub to access the JSON content directly
-    url = "https://raw.githubusercontent.com/StunnerMnM7/cosc-1104-scripting/main/group-1_activities/In-class_4/ec2_instance_types.json"
-    file_path = "M:\Git\Repositories\cosc-1104-scripting\group-1_activities\In-class_4\ec2_instance_types.json"
+    url = "https://github.com/StunnerMnM7/cosc-1104-scripting/blob/main/ec2_instance_types.json"
+    file_path = "M:/Git/Repositories/cosc-1104-scripting/ec2_instance_types.json"
     ec2_data = retrieve_ec2_data(url= url, file_path= file_path)
     # User input
     min_cpu = get_user_input("Enter minimum required CPU count: ", int)
